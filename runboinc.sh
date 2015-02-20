@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo $BOINC_CONFIG_CONTENTS > $BOINC_CONFIG_FILENAME
+boinc
